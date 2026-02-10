@@ -4,7 +4,7 @@ void main() {
 
     int[][] arr = new int[3][3];
 
-    IO.println(arr.length); // number of rows
+    System.out.println(arr.length); // number of rows
     // input
     for (int[] arr1 : arr) {
         for (int col = 0; col < arr1.length; col++) {
